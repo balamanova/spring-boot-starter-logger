@@ -1,0 +1,10 @@
+pluginManagement {
+    repositories {
+        maven{
+            url " {$ARTIFCATORY_URL}/gradle-plugins"
+        }
+    }
+}
+
+rootProject.name = 'spring-boot-starter-logger'
+

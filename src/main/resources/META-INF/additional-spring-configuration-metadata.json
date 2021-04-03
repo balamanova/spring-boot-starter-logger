@@ -1,0 +1,14 @@
+{
+  "properties": [
+    {
+      "name": "Logger",
+      "type": "kz.progger.starter.logger.config.Logger",
+      "description": "Make unified logger template for all Java projects. Current level is 'Info'. But you can configure with application.properties"
+    },
+    {
+      "name": "ExcludeLogger",
+      "type": "kz.progger.starter.logger.config.ExcludeLogger",
+      "description": "Not log info on annotated method. It will help to avoid confidential information about customer or \nsome configuration values."
+    }
+  ]
+}
