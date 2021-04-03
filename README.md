@@ -1,18 +1,28 @@
 # spring-boot-logger-starter
 
-<h3><b>Quickstart</b></h3>
+### IMPORTANT
+##### If you interested to upload package to corporate artifactory, then read this block
+
+You can install it to the corporate artifactory and use as package
+I added needed configs to gradle file.
+ARTIFACTORY_URL = url to your artifactory
+
+Just add it as dependency to your build.gradle (or build.gradle.kts)
+old gradle version
+
+
  <p>Add dependency
  <p> (for old gradle)</p> <pre>compile kz.progger.starter:spring-boot-starter-logger:0.0.3</pre> 
   (for new gradle) <pre>implementation kz.progger.starter:spring-boot-starter-logger:0.0.3</pre>from artifactory.progger.kz to your build.gradle file.
  
-<br>
-<b>@Logger</b> - logs path info, execution time, authorized username and passed arguments to the method
-
- Add <b>@Logger</b> annotation on the top of your class, interface (including annotation type) declaration.
 
  <hr>
-    <h4>NOTE</h4>
-    
+    <h4>Usage</h4>
+    <br>
+<b>@Logger</b> - logs path info, execution time, authorized username and passed arguments to the method
+
+Add <b>@Logger</b> annotation on the top of your class, interface (including annotation type) declaration.
+
 #####   1) If you don`t use <b>Spring Security</b> on your application, add to application.yml
     <pre>
     ...
