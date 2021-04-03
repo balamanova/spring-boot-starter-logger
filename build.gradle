@@ -21,13 +21,7 @@ configurations {
 }
 allprojects {
 	repositories {
-		maven {
-			url {$ARTIFCATORY_URL/libs}
-		}
-		maven {
-			url {$ARTIFCATORY_URL/jcenter}
-		}
-
+		jcenter()
 	}
 }
 
