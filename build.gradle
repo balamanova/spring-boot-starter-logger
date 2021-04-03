@@ -42,6 +42,7 @@ task sourcesJar(type: Jar) {
 	with jar
 }
 
+
 publishing {
 	publications {
 		maven(MavenPublication) {
